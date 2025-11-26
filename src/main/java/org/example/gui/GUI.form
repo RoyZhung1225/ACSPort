@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.gui.GUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="511" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="77f79" layout-manager="FlowLayout" hgap="8" vgap="5" flow-align="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="4ecac" class="javax.swing.JButton" binding="port設定Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="port設定"/>
+            </properties>
+          </component>
+          <component id="dc342" class="javax.swing.JSeparator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="c48c7" class="javax.swing.JButton" binding="開啟關閉Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="開啟/關閉"/>
+            </properties>
+          </component>
+          <component id="b0229" class="javax.swing.JButton" binding="傳送檔案Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="傳送檔案"/>
+            </properties>
+          </component>
+          <component id="3364c" class="javax.swing.JButton" binding="自動回傳Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="自動回傳"/>
+            </properties>
+          </component>
+          <component id="55122" class="javax.swing.JButton" binding="重置計數Button" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="重置計數"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="609b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="837ad" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="504" height="12"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="line"/>
+            <children/>
+          </grid>
+          <component id="53332" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="504" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="94c1c">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1135c" class="javax.swing.JTextArea" binding="log">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>
