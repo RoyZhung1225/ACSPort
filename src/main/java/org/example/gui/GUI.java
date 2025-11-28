@@ -11,35 +11,54 @@ public class GUI implements LogOutput {
 
 
     private JPanel panel1;
-    private JComboBox<String> comboBox1;
-    private JButton 開啟關閉Button;
-    private JButton port設定Button;
-    private JButton 自動回傳Button;
-    private JTextArea log;
+    private JButton set;
+    private JButton switchBut;
+    private JButton fileDeli;
+    private JButton colsoleButton;
+    private JButton hexButton;
+    private JButton charButton;
+    private JButton autoReply;
+    private JButton clearButton;
+    private JButton addCRLFButton;
+    private JTabbedPane tabbedPane1;
     private JTextArea textArea1;
-    private JButton 傳送檔案Button;
-    private JButton 重置計數Button;
+    private JRadioButton 十六進位RadioButton;
+    private JRadioButton 字元RadioButton;
+    private JCheckBox 自動發送CheckBox;
+    private JButton 清除數據Button;
+    private JButton 傳送資料Button;
+    private JTable table1;
+    private JComboBox<String> comboBox1;
+    private JTextArea log;
     String portName;
+    JFrame frame;
 
+    private SettingFrame settingFrame;
+
+    private SettingFrame getSettingFrame(){
+        if(settingFrame == null){
+            settingFrame = new SettingFrame();
+        }
+        return settingFrame;
+    }
+
+
+
+    public GUI() {
+        set.addActionListener(e -> getSettingFrame().setVisible(true));
+    }
 
     public JPanel getPanel() {
         return panel1;
     }
 
     public void openGUI(){
-        JFrame frame = new JFrame("GUI");
-        frame.setContentPane(this.getPanel());
+        JFrame frame = new JFrame("SerialPort Manager");
+        frame.setContentPane(getPanel());   // 使用 Designer 的主 Panel
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1000, 800);
-        frame.pack();
+        frame.setSize(900, 600);
+        frame.setLocationRelativeTo(null);  // 視窗置中
         frame.setVisible(true);
-        loadPorts();
-        portName = (String) comboBox1.getSelectedItem();
-
-
-
-
-
     }
 
 
@@ -71,4 +90,5 @@ public class GUI implements LogOutput {
             }
         });
     }
+
 }

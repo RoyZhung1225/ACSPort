@@ -2,7 +2,7 @@ package org.example.gui;
 
 import javax.swing.*;
 
-public class Settings {
+public class SettingFrame {
     private JComboBox comboBox1;
     private JComboBox comboBox2;
     private JRadioButton 十六進位RadioButton1;
@@ -14,15 +14,17 @@ public class Settings {
     private JPanel panel1;
     private JRadioButton 十六進位RadioButton;
     private JRadioButton 字元形式RadioButton1;
+    JFrame frame;
 
-
-    public void open() {
-        JFrame frame = new JFrame("Settings");
-        frame.setContentPane(new Settings().panel1);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+    public SettingFrame() {
+        frame = new JFrame("參數設定");
+        frame.setContentPane(panel1);
+        frame.setSize(400, 300);
+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); // ← 重要：不要清掉 UI
     }
 
+    public void setVisible(boolean b){
+        this.frame.setVisible(b);
+    }
 
 }
