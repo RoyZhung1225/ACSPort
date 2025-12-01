@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81d1ae7d-636b-4910-8669-4c2a0967924f" name="Changes" comment="Main GUI Done">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClosePort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OpenPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PortConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PortConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PortManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PortManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RoyZhung1225&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RoyZhung1225/ACSPort.git&quot;,
+    &quot;accountId&quot;: &quot;307e5b1d-476e-44ba-83a0-8a9a8321a207&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="363l5XBJwkmOW7uvLuR4Yu99PyH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;355&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81d1ae7d-636b-4910-8669-4c2a0967924f" name="Changes" comment="" />
+      <created>1764242953460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764242953460</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Main GUI Done">
+      <option name="closed" value="true" />
+      <created>1764330585728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764330585728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main GUI Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main GUI Done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

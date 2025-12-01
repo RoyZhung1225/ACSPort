@@ -56,6 +56,12 @@
                   <toolTipText value="自動回覆"/>
                 </properties>
               </component>
+              <component id="2457b" class="javax.swing.JButton" binding="closeButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="close"/>
+                </properties>
+              </component>
             </children>
           </grid>
           <grid id="d3012" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
@@ -157,31 +163,31 @@
                     <properties/>
                     <border type="line"/>
                     <children>
-                      <component id="4e42a" class="javax.swing.JRadioButton" binding="十六進位RadioButton" default-binding="true">
+                      <component id="4e42a" class="javax.swing.JRadioButton" binding="hexWrite">
                         <constraints/>
                         <properties>
                           <text value="十六進位"/>
                         </properties>
                       </component>
-                      <component id="59c31" class="javax.swing.JRadioButton" binding="字元RadioButton" default-binding="true">
+                      <component id="59c31" class="javax.swing.JRadioButton" binding="charWrite">
                         <constraints/>
                         <properties>
                           <text value="字元"/>
                         </properties>
                       </component>
-                      <component id="8d787" class="javax.swing.JCheckBox" binding="自動發送CheckBox" default-binding="true">
+                      <component id="8d787" class="javax.swing.JCheckBox" binding="autoRe">
                         <constraints/>
                         <properties>
                           <text value="自動發送"/>
                         </properties>
                       </component>
-                      <component id="3a88" class="javax.swing.JButton" binding="清除數據Button" default-binding="true">
+                      <component id="3a88" class="javax.swing.JButton" binding="clearData">
                         <constraints/>
                         <properties>
                           <text value="清除數據"/>
                         </properties>
                       </component>
-                      <component id="840b2" class="javax.swing.JButton" binding="傳送資料Button" default-binding="true">
+                      <component id="840b2" class="javax.swing.JButton" binding="sendData">
                         <constraints/>
                         <properties>
                           <text value="傳送資料"/>
@@ -220,22 +226,10 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="ba349" class="javax.swing.JLabel">
-            <constraints/>
-            <properties>
-              <text value="發送:0"/>
-            </properties>
-          </component>
-          <component id="c5065" class="javax.swing.JLabel">
-            <constraints/>
-            <properties>
-              <text value="接收:0"/>
-            </properties>
-          </component>
           <component id="d5250" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="COM14(9600, N, 8, 1)"/>
+              <text value="發送:0 接收:0 COM14(9600, N, 8, 1)"/>
             </properties>
           </component>
           <component id="da25e" class="javax.swing.JLabel">

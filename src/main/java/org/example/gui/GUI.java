@@ -6,6 +6,10 @@ import org.example.LogOutput;
 import javax.swing.*;
 import javax.swing.event.PopupMenuEvent;
 import javax.swing.event.PopupMenuListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import static org.example.Main.manager;
 
 public class GUI implements LogOutput {
 
@@ -22,12 +26,13 @@ public class GUI implements LogOutput {
     private JButton addCRLFButton;
     private JTabbedPane tabbedPane1;
     private JTextArea textArea1;
-    private JRadioButton 十六進位RadioButton;
-    private JRadioButton 字元RadioButton;
-    private JCheckBox 自動發送CheckBox;
-    private JButton 清除數據Button;
-    private JButton 傳送資料Button;
+    private JRadioButton hexWrite;
+    private JRadioButton charWrite;
+    private JCheckBox autoRe;
+    private JButton clearData;
+    private JButton sendData;
     private JTable table1;
+    private JButton closeButton;
     private JComboBox<String> comboBox1;
     private JTextArea log;
     String portName;
@@ -46,6 +51,21 @@ public class GUI implements LogOutput {
 
     public GUI() {
         set.addActionListener(e -> getSettingFrame().setVisible(true));
+        switchBut.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                settingFrame.openPort();
+
+
+            }
+        });
+
+        closeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                settingFrame.closePort();
+            }
+        });
     }
 
     public JPanel getPanel() {

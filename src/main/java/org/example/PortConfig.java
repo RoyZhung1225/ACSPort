@@ -23,27 +23,26 @@ public class PortConfig {
 
     @Getter
     @Setter
-    private String portName = this.toolkit.getPortName(); // 序列埠名稱
+    private String portName; // 序列埠名稱
 
     @Getter
     @Setter
-    private int baudRate = this.toolkit.getBaudRate(); // 預設鮑率
+    private int baudRate; // 預設鮑率
 
     @Getter
     @Setter
-    private int dataBits = 8;   // 預設資料位元
+    private int dataBits;   // 預設資料位元
 
     @Getter
     @Setter
-    private int stopBits = 1;   // 預設停止位元
+    private float stopBits;   // 預設停止位元
 
     @Getter
     @Setter
-    private int parity = 0;     // 預設無奇偶校驗
+    private int parity;     // 預設無奇偶校驗
 
     @Getter
-    @Setter
-    private int flowControl = 0; // 預設無流量控制
+    private final int flowControl = 0; // 預設無流量控制
 
     @Getter
     @Setter
@@ -55,11 +54,11 @@ public class PortConfig {
 
     @Getter
     @Setter
-    private int autoReplyDelay = 0; // 自動回覆延遲時間，單位毫秒
+    private int autoReplyDelay; // 自動回覆延遲時間，單位毫秒
 
     @Getter
     @Setter
-    private int bufferAllowCate = 1024; // 緩衝區允許容量，單位位元組
+    private int bufferAllowCate; // 緩衝區允許容量，單位位元組
 
     @Getter
     @Setter
@@ -79,9 +78,15 @@ public class PortConfig {
 
     @Getter
     @Setter
-    private Future<Integer> futureWrite;   // 非阻塞寫入任務（保留日後擴充寫入使用）
+    private Future<Integer> futureWrite;    // 非阻塞寫入任務（保留日後擴充寫入使用）
 
-
-
+    public PortConfig(){
+        this.baudRate = 9600;
+        this.dataBits = 8;
+        this.stopBits = 1;
+        this.autoReplyDelay = 1000;
+        this.bufferAllowCate = 1024;
+        this.parity = 0;
+    }
 
 }

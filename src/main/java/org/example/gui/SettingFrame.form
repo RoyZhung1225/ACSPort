@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.gui.SettingFrame">
-  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="4" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="5" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="478"/>
+      <xy x="20" y="20" width="500" height="511"/>
     </constraints>
     <properties/>
     <border type="none" title=""/>
@@ -100,7 +100,7 @@
               <text value="緩衝區大小:"/>
             </properties>
           </component>
-          <component id="15ab8" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+          <component id="15ab8" class="javax.swing.JComboBox" binding="portName">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -108,9 +108,75 @@
                 <maximum-size width="100" height="20"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value="COM2"/>
+                <item value="COM3"/>
+                <item value="COM4"/>
+                <item value="COM5"/>
+                <item value="COM6"/>
+                <item value="COM7"/>
+                <item value="COM8"/>
+                <item value="COM9"/>
+                <item value="COM10"/>
+                <item value="COM11"/>
+                <item value="COM12"/>
+                <item value="COM13"/>
+                <item value="COM14"/>
+                <item value="COM15"/>
+                <item value="COM16"/>
+                <item value="COM17"/>
+                <item value="COM18"/>
+                <item value="COM19"/>
+                <item value="COM20"/>
+                <item value="COM21"/>
+                <item value="COM22"/>
+                <item value="COM23"/>
+                <item value="COM24"/>
+                <item value="COM25"/>
+                <item value="COM26"/>
+                <item value="COM27"/>
+                <item value="COM28"/>
+                <item value="COM29"/>
+                <item value="COM30"/>
+                <item value="COM31"/>
+                <item value="COM32"/>
+                <item value="COM33"/>
+                <item value="COM34"/>
+                <item value="COM35"/>
+                <item value="COM36"/>
+                <item value="COM37"/>
+                <item value="COM38"/>
+                <item value="COM39"/>
+                <item value="COM40"/>
+                <item value="COM41"/>
+                <item value="COM42"/>
+                <item value="COM43"/>
+                <item value="COM44"/>
+                <item value="COM45"/>
+                <item value="COM46"/>
+                <item value="COM47"/>
+                <item value="COM48"/>
+                <item value="COM49"/>
+                <item value="COM50"/>
+                <item value="COM51"/>
+                <item value="COM52"/>
+                <item value="COM53"/>
+                <item value="COM54"/>
+                <item value="COM55"/>
+                <item value="COM56"/>
+                <item value="COM57"/>
+                <item value="COM58"/>
+                <item value="COM59"/>
+                <item value="COM60"/>
+                <item value="COM61"/>
+                <item value="COM62"/>
+                <item value="COM63"/>
+                <item value="COM64"/>
+              </model>
+            </properties>
           </component>
-          <component id="733f0" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+          <component id="733f0" class="javax.swing.JComboBox" binding="baudRate">
             <constraints>
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -119,10 +185,27 @@
               </grid>
             </constraints>
             <properties>
-              <model/>
+              <model>
+                <item value="110"/>
+                <item value="300"/>
+                <item value="600"/>
+                <item value="1200"/>
+                <item value="2400"/>
+                <item value="4800"/>
+                <item value="9600"/>
+                <item value="19200"/>
+                <item value="28800"/>
+                <item value="38400"/>
+                <item value="43000"/>
+                <item value="56000"/>
+                <item value="5700"/>
+                <item value="115200"/>
+                <item value="128000"/>
+                <item value="256000"/>
+              </model>
             </properties>
           </component>
-          <component id="bb1f6" class="javax.swing.JComboBox" default-binding="true">
+          <component id="bb1f6" class="javax.swing.JComboBox" binding="parity">
             <constraints>
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -131,10 +214,16 @@
               </grid>
             </constraints>
             <properties>
-              <model/>
+              <model>
+                <item value="NONE"/>
+                <item value="ODD"/>
+                <item value="EVEN"/>
+                <item value="MARK"/>
+                <item value="SPACE"/>
+              </model>
             </properties>
           </component>
-          <component id="5bd28" class="javax.swing.JComboBox" default-binding="true">
+          <component id="5bd28" class="javax.swing.JComboBox" binding="dataBits">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -143,10 +232,14 @@
               </grid>
             </constraints>
             <properties>
-              <model/>
+              <model>
+                <item value="8"/>
+                <item value="7"/>
+                <item value="6"/>
+              </model>
             </properties>
           </component>
-          <component id="fbede" class="javax.swing.JComboBox" default-binding="true">
+          <component id="fbede" class="javax.swing.JComboBox" binding="stopBits">
             <constraints>
               <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -155,10 +248,14 @@
               </grid>
             </constraints>
             <properties>
-              <model/>
+              <model>
+                <item value="1"/>
+                <item value="1.5"/>
+                <item value="2"/>
+              </model>
             </properties>
           </component>
-          <component id="23e7a" class="javax.swing.JComboBox" default-binding="true">
+          <component id="23e7a" class="javax.swing.JComboBox" binding="bufferAllowCate">
             <constraints>
               <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="100" height="20"/>
@@ -167,7 +264,14 @@
               </grid>
             </constraints>
             <properties>
-              <model/>
+              <model>
+                <item value="256"/>
+                <item value="512"/>
+                <item value="1024"/>
+                <item value="2048"/>
+                <item value="4096"/>
+                <item value="8192"/>
+              </model>
             </properties>
           </component>
         </children>
@@ -241,7 +345,7 @@
         <properties/>
         <border type="none" title="自動發送"/>
         <children>
-          <component id="4ed8" class="javax.swing.JCheckBox" binding="允許自動發送CheckBox" default-binding="true">
+          <component id="4ed8" class="javax.swing.JCheckBox" binding="allowAutoReply">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
               <gridbag weightx="1.0" weighty="0.0"/>
@@ -276,6 +380,16 @@
         </constraints>
         <properties>
           <text value="延遲"/>
+        </properties>
+      </component>
+      <component id="ad672" class="javax.swing.JButton" binding="save">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="儲存"/>
         </properties>
       </component>
     </children>
