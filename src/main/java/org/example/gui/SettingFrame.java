@@ -58,12 +58,14 @@ public class SettingFrame {
     }
 
     public void setVisible(boolean b){
+        System.out.println("inv");
         this.frame.setVisible(b);
     }
 
     public void openPort(){
         manager.open(this.port);
         manager.setOpen(true);
+
     }
 
     public void closePort(){

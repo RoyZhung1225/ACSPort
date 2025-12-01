@@ -51,10 +51,15 @@ public class GUI implements LogOutput {
 
     public GUI() {
         set.addActionListener(e -> getSettingFrame().setVisible(true));
+
         switchBut.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                settingFrame.openPort();
+                try {
+                    settingFrame.openPort();
+                }catch (NullPointerException nullPointerException){
+                    System.out.println("請先配置參數!");
+                }
 
 
             }

@@ -13,6 +13,7 @@ public class Main {
         GUI gui = new GUI();
         gui.openGUI();
 
+
         while (true) {
 
             if (manager.config == null) {

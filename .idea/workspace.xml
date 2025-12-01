@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d1ae7d-636b-4910-8669-4c2a0967924f" name="Changes" comment="Main GUI Done">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClosePort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OpenPort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PortConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PortConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PortManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PortManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gui/SettingFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764330585728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Main GUI Done">
+      <option name="closed" value="true" />
+      <created>1764586004776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764586004776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
